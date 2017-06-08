@@ -1,6 +1,6 @@
-# RESTfull_CRUD
+<h1>My test work for CHI Software</h1>
 [![Build Status](https://travis-ci.org/yarikpavlin/RESTfull_CRUD.svg?branch=master)](https://travis-ci.org/yarikpavlin/RESTfull_CRUD)
-My test work for CHI Software
+<br>
 
 
 |   Method     | Description                            |
@@ -18,3 +18,12 @@ My test work for CHI Software
 |              |                                        |
 |    @DELETE   |It is used for delete date              |
 |              | localhost:8080/rest/users/delete={id}  |
+
+<br>
+
+<h2>Used technology</h2>
+[x]Java
+[x]Maven
+[x]JDBC
+[x]Jersy
+[]H2
