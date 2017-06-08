@@ -5,10 +5,16 @@ My test work for CHI Software
 
 |   Method     | Description                            |
 |--------------|----------------------------------------|
-|              | It is used for read                    |
+|    @GET      | It is used for read                    |
 |              | localhost:8080/rest/users              |
-|    @GET      | localhost:8080/rest/users/id={id}      |
+|              | localhost:8080/rest/users/id={id}      |
 |              | localhost:8080/rest/users/name={name}  |
-|-------------------------------------------------------|
+|              |                                        |
 |    @POST     | It is used for create new date         |
 |              | localhost:8080/rest/users              |
+|              |                                        |
+|    @PUT      |It is used for update date              |
+|              | localhost:8080/rest/users              |
+|              |                                        |
+|    @DELETE   |It is used for delete date              |
+|              | localhost:8080/rest/users/delete={id}  |
