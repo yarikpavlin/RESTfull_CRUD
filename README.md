@@ -23,7 +23,7 @@
 <br>
 
 <h2>Used technology</h2>
-* Java
++Java
 * H2 Database in-memory
 * JDBC
 * JSON
