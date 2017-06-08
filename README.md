@@ -26,4 +26,7 @@
 * JDBC
 * H2 DataBase in-memory
 * Jersey
+* JSON
 * Maven
+
+## How run project? ##
