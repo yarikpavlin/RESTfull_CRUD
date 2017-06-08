@@ -23,6 +23,7 @@
 <br>
 
 <h2>Used technology</h2>
+Markup :
 *Java
 *H2 Database in-memory
 *JDBC
