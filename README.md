@@ -1,6 +1,7 @@
 <h1>My test work for CHI Software</h1>
+
 [![Build Status](https://travis-ci.org/yarikpavlin/RESTfull_CRUD.svg?branch=master)](https://travis-ci.org/yarikpavlin/RESTfull_CRUD)
-<br>
+
 
 
 |   Method     | Description                            |
