@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/yarikpavlin/RESTfull_CRUD.svg?branch=master)](https://travis-ci.org/yarikpavlin/RESTfull_CRUD)
 
-
+<div align="center">
 
 |   Method     | Description                            |
 |--------------|----------------------------------------|
@@ -19,7 +19,7 @@
 |              |                                        |
 |    @DELETE   |It is used for delete date              |
 |              | localhost:8080/rest/users/delete={id}  |
-
+</div>
 <br>
 
 <h2>Used technology</h2>
