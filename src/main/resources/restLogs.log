@@ -1,0 +1,5 @@
+2017-06-08 14:38:48,030 [http-nio-8080-exec-7] INFO  com.yarikpavlin.tz.dao.ManageDataBase : New User successfully added to DataBase!
+2017-06-08 14:39:25,993 [http-nio-8080-exec-9] INFO  com.yarikpavlin.tz.dao.ManageDataBase : New User successfully added to DataBase!
+2017-06-08 14:39:49,546 [http-nio-8080-exec-2] INFO  com.yarikpavlin.tz.dao.ManageDataBase : User successfully updated!
+2017-06-08 14:41:32,033 [http-nio-8080-exec-7] INFO  com.yarikpavlin.tz.dao.ManageDataBase : New User successfully added to DataBase!
+2017-06-08 14:41:35,904 [http-nio-8080-exec-9] INFO  com.yarikpavlin.tz.dao.ManageDataBase : New User successfully added to DataBase!

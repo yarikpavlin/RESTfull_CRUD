@@ -11,36 +11,22 @@ import java.util.*;
  * Created by Yaroslav Pavlinskiy on 07.06.2017.
  */
 public class ManageDataBase {
-    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://127.0.0.1/restchi?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-    private static final String USER = "root";
-    private static final String PASS = "";
+    private static final String CREATE_QUERY = "CREATE TABLE USER(" +
+            "Id int(16) not null primary key,name varchar(255) not null,phone varchar(255) not null)";
     private static final Logger log = Logger.getLogger(ManageDataBase.class);
     private static Statement statement;
     private static Connection connection;
 
     static {
-        statement = null;
         try {
-            Class.forName(JDBC_DRIVER).newInstance();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        }
-        try {
-            connection = DriverManager.getConnection(DB_URL, USER, PASS);
-            log.info("Connection successfully get!");
-        } catch (SQLException e) {
-            log.error("Something wrong with connection!");
-            e.printStackTrace();
-        }
-        try {
+            DriverManager.registerDriver(new org.h2.Driver());
+            connection = DriverManager.getConnection("jdbc:h2:mem:test");
             statement = connection.createStatement();
+            statement.execute(CREATE_QUERY);
+            log.info("Table successfully created!");
         } catch (SQLException e) {
             e.printStackTrace();
+            log.error("Some problems with creating table USER!");
         }
     }
 

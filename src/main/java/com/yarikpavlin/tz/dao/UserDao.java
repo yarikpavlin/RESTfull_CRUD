@@ -2,7 +2,6 @@ package com.yarikpavlin.tz.dao;
 
 import com.yarikpavlin.tz.model.User;
 
-import java.sql.SQLException;
 import java.util.*;
 
 /**
