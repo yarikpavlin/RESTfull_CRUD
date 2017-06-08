@@ -23,8 +23,3 @@
 <br>
 
 <h2>Used technology</h2>
-[x]Java
-[x]Maven
-[x]JDBC
-[x]Jersy
-[]H2
