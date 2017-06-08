@@ -23,3 +23,9 @@
 <br>
 
 <h2>Used technology</h2>
+*Java
+*H2 Database in-memory
+*JDBC
+*JSON
+*Jersey
+*Maven
