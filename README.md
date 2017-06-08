@@ -9,6 +9,6 @@ My test work for CHI Software
 |              | localhost:8080/rest/users              |
 |    @GET      | localhost:8080/rest/users/id={id}      |
 |              | localhost:8080/rest/users/name={name}  |
-|--------------|----------------------------------------|
+|-------------------------------------------------------|
 |    @POST     | It is used for create new date         |
 |              | localhost:8080/rest/users              |
